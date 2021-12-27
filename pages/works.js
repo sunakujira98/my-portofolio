@@ -1,0 +1,43 @@
+import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import Section from '../components/section'
+import { WorkGridItem } from '../components/grid-item'
+
+import thumbJashen from '../public/images/works/thumbJashen.png'
+import thumbProshop from '../public/images/works/thumbProshop.png'
+import thumbBroko from '../public/images/works/thumbBroko.jpg'
+import thumbMede from '../public/images/works/thumbMede.png'
+
+const Works = () => {
+  return (
+    <Container>
+      <Heading as="h3" fontSize={20} mb={4}>
+        Works
+      </Heading>
+
+      <SimpleGrid columns={[1,1,2]} gap={6}>
+        <Section>
+          <WorkGridItem id="brokoindonesia" title="Broko Indonesia" thumbnail={thumbBroko}>
+            A company that provides a solution to  barter loose palm oil with basic necessities between palm oil farmer and shop partner.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="medealmond" title="Mede Almond Bandung" thumbnail={thumbMede}>
+            A company that provides various nuts
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="jashenmitrasinergi" title="Jashen Mitra Sinergi" thumbnail={thumbJashen}>
+            A company that provides Experienced and Reliable Supplier of Material and Equipment
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="proshopapp" title="Proshopapp" thumbnail={thumbProshop}>
+            A simple one stop solution for electornics e-commerce
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+    </Container>
+  )
+}
+
+export default Works
