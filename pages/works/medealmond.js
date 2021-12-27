@@ -34,6 +34,7 @@ const Work = () => {
             <span>ReactJS</span>
           </ListItem>
         </List>
+        <WorkImage src="/images/works/thumbMede.png" alt="Mede Image"/>
       </Container>
     </Layout>
   )
