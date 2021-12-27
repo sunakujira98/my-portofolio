@@ -102,7 +102,7 @@ const Page = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://api.whatsapp.com/send?phone=6287705553241&text=Hi%20Steven.%20Found%20you%20From%20the%20Website." target="_blank">
+              <Link href="https://api.whatsapp.com/send?phone=6287705554341&text=Hi%20Steven.%20Found%20you%20From%20the%20Website." target="_blank">
                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoWhatsapp}/>}>+6287705554341</Button>
               </Link>
             </ListItem>
