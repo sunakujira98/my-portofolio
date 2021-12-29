@@ -5,25 +5,24 @@ import {
   List,
   ListItem
 } from '@chakra-ui/react'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => {
   return (
-    <Layout title="Proshop App">
+    <Layout title="PT Jashen Mitra Sinergi">
       <Container>
         <Title>
-          Proshop <Badge>2021</Badge>
+          MDM My Pertamina <Badge>2021</Badge>
         </Title>
         <P>
-          A simple one stop solution for electornics e-commerce
+          A project that helps for pertamina data cleansing and mass campaign activities
         </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href='https://proshopapp.herokuapp.com/' target="_blank">https://proshopapp09.herokuapp.com<ExternalLinkIcon mx="2px"/></Link>
+            <Link href='#'>Internal access only</Link>
           </ListItem>
           <ListItem>
             <Meta>Platform</Meta>
@@ -31,13 +30,14 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>MongoDB, Express, ReactJS, NodeJS</span>
+            <span>ExpressJs, Pug, Docker, ElasticSearch, Python</span>
           </ListItem>
         </List>
-        <WorkImage src="/images/works/thumbProshop.png" alt="Proshop Image"/>
-        <WorkImage src="/images/works/proshop1.png" alt="Proshop Image"/>
-        <WorkImage src="/images/works/proshop2.png" alt="Proshop Image"/>
-        <WorkImage src="/images/works/proshop3.png" alt="Proshop Image"/>
+        <WorkImage src="/images/works/mdmPertamina1.png" alt="Mdm My Pertamina"/>
+        <WorkImage src="/images/works/mdmPertamina2.png" alt="Mdm My Pertamina"/>
+        <WorkImage src="/images/works/mdmPertamina3.png" alt="Mdm My Pertamina"/>
+        <WorkImage src="/images/works/mdmPertamina4.png" alt="Mdm My Pertamina"/>
+        <WorkImage src="/images/works/mdmPertamina5.png" alt="Mdm My Pertamina"/>
       </Container>
     </Layout>
   )

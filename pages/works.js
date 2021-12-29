@@ -6,6 +6,7 @@ import thumbJashen from '../public/images/works/thumbJashen.png'
 import thumbProshop from '../public/images/works/thumbProshop.png'
 import thumbBroko from '../public/images/works/thumbBroko.jpg'
 import thumbMede from '../public/images/works/thumbMede.png'
+import thumbMdm from '../public/images/works/thumbMdmPertamina.png'
 
 const Works = () => {
   return (
@@ -16,8 +17,8 @@ const Works = () => {
 
       <SimpleGrid columns={[1,1,2]} gap={6}>
         <Section>
-          <WorkGridItem id="brokoindonesia" title="Broko Indonesia" thumbnail={thumbBroko}>
-            A company that provides a solution to  barter loose palm oil with basic necessities between palm oil farmer and shop partner.
+          <WorkGridItem id="mdmpertamina" title="MDM My Pertamina" thumbnail={thumbMdm}>
+            A project that helps for pertamina data cleansing and mass campaign activities
           </WorkGridItem>
         </Section>
         <Section>
@@ -33,6 +34,11 @@ const Works = () => {
         <Section>
           <WorkGridItem id="proshopapp" title="Proshopapp" thumbnail={thumbProshop}>
             A simple one stop solution for electornics e-commerce
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="brokoindonesia" title="Broko Indonesia" thumbnail={thumbBroko}>
+            A company that provides a solution to  barter loose palm oil with basic necessities between palm oil farmer and shop partner.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
