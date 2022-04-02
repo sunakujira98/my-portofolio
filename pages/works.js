@@ -4,9 +4,10 @@ import { WorkGridItem } from '../components/grid-item'
 
 import thumbJashen from '../public/images/works/thumbJashen.png'
 import thumbProshop from '../public/images/works/thumbProshop.png'
-import thumbBroko from '../public/images/works/thumbBroko.jpg'
+import thumbBroko from '../public/images/works/thumbBrokoAtom.jpg'
 import thumbMede from '../public/images/works/thumbMede.png'
 import thumbMdm from '../public/images/works/thumbMdmPertamina.png'
+import thumbUnos from '../public/images/works/thumbUnos.png'
 
 const Works = () => {
   return (
@@ -34,6 +35,11 @@ const Works = () => {
         <Section>
           <WorkGridItem id="proshopapp" title="Proshopapp" thumbnail={thumbProshop}>
             A simple one stop solution for electornics e-commerce
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="unosjeanstudio" title="Unosjeanstudio" thumbnail={thumbUnos}>
+          A simple web page for Bandung Jeans maker.
           </WorkGridItem>
         </Section>
         <Section>
