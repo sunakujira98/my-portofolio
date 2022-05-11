@@ -6,7 +6,6 @@ import thumbNetflix from '../public/images/works/thumbNetflix.png'
 import thumbJashen from '../public/images/works/thumbJashen.png'
 import thumbProshop from '../public/images/works/thumbProshop.png'
 import thumbBroko from '../public/images/works/thumbBrokoAtom.jpg'
-import thumbMede from '../public/images/works/thumbMede.png'
 import thumbMdm from '../public/images/works/thumbMdmPertamina.png'
 import thumbUnos from '../public/images/works/thumbUnos.png'
 
