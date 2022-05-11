@@ -2,6 +2,7 @@ import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
+import thumbNetflix from '../public/images/works/thumbNetflix.png'
 import thumbJashen from '../public/images/works/thumbJashen.png'
 import thumbProshop from '../public/images/works/thumbProshop.png'
 import thumbBroko from '../public/images/works/thumbBrokoAtom.jpg'
@@ -18,13 +19,13 @@ const Works = () => {
 
       <SimpleGrid columns={[1,1,2]} gap={6}>
         <Section>
-          <WorkGridItem id="mdmpertamina" title="MDM My Pertamina" thumbnail={thumbMdm}>
-            A project that helps for pertamina data cleansing and mass campaign activities
+          <WorkGridItem id="netflix" title="Netflix Cloned" thumbnail={thumbNetflix}>
+            Developed a cloned version of netlix :)
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="medealmond" title="Mede Almond Bandung" thumbnail={thumbMede}>
-            A company that provides various nuts
+          <WorkGridItem id="mdmpertamina" title="MDM My Pertamina" thumbnail={thumbMdm}>
+            A project that helps for pertamina data cleansing and mass campaign activities
           </WorkGridItem>
         </Section>
         <Section>

@@ -1,4 +1,4 @@
-import { Container, Box, Heading, Image, useColorModeValue, Button, Icon, List, ListItem, Link } from '@chakra-ui/react'
+import { Container, Box, Heading, useColorModeValue, Button, Icon, List, ListItem, Link } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import NextLink from 'next/link'
@@ -24,23 +24,6 @@ const Page = () => {
               Steven Theodore
             </Heading>
             <p>Software Engineer</p>
-          </Box>
-          <Box 
-            flexShrink={0} 
-            mt={{ base: 3, md: 0 }}
-            ml={{ md: 6 }}
-            align="center"
-          >
-            <Image 
-              borderColor="whiteAlpha.800" 
-              borderWidth={2} 
-              borderStyle="solid" 
-              maxWidth="100px"
-              display="inline-block"
-              borderRadius="full"
-              src="/images/steven.jpg"
-              alt="my images"
-            />
           </Box>
         </Box>
         <Section delay={0.1}>

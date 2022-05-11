@@ -15,15 +15,15 @@ const Work = () => {
     <Layout title="Proshop App">
       <Container>
         <Title>
-          Unosjeanstudio <Badge>2022</Badge>
+          Netflix-Cloned <Badge>2022</Badge>
         </Title>
         <P>
-        A simple web page for Bandung Jeans maker
+        Made a cloned version of netflix
         </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href='https://unosjeanstudio.com/' target="_blank">https://unosjeanstudio.com/<ExternalLinkIcon mx="2px"/></Link>
+            <Link href='https://netflix-indie.vercel.app/' target="_blank">https://netflix-indie.vercel.app/<ExternalLinkIcon mx="2px"/></Link>
           </ListItem>
           <ListItem>
             <Meta>Platform</Meta>
@@ -31,10 +31,17 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>Laravel, HTML, CSS, Javascript</span>
+            <span>ReactJS, Firebase</span>
+          </ListItem>
+          <ListItem>
+            <Meta>Test Account</Meta>
+            <span>steven.history@gmail.com / history123</span>
           </ListItem>
         </List>
-        <WorkImage src="/images/works/thumbUnos.png" alt="Proshop Image"/>
+        <WorkImage src="/images/works/thumbNetflix.png" alt="Netflix Thumb"/>
+        <WorkImage src="/images/works/netflix-1.png" alt="Netflix 1"/>
+        <WorkImage src="/images/works/netflix-2.png" alt="Netflix 2"/>
+        <WorkImage src="/images/works/netflix-3.png" alt="Netflix 3"/>
       </Container>
     </Layout>
   )
