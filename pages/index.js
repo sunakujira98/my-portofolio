@@ -44,10 +44,6 @@ const Page = () => {
             Bio
           </Heading>
           <BioSection>
-            <BioYear>1998</BioYear>
-            Starting Life
-          </BioSection>
-          <BioSection>
             <BioYear>2019</BioYear>
             Started professional Career
           </BioSection>
